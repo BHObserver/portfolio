@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  main {
+    background-image: url(assets/header-illsutration-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation-duration: 0.5s;
+  animation-name: obj-scale;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation-duration: 0.5s;
+  animation-name: obj-scale;
+}
+
+.primary {
+  text-align: center;
+  max-width: 327px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 52px;
+}
+
+.supporting-text {
+  width: 327px;
+  height: 164px;
+  top: 382px;
+  left: 27px;
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  animation-duration: 0.5s;
+  animation-name: obj-scale;
+}
+
+.nav-btn {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  animation-duration: 0.5s;
+  animation-name: obj-scale;
+}
+
+#logo {
+  padding: 10px 12px;
+  width: 48px;
+  height: 48px;
+  border-radius: 20px;
+  animation-duration: 0.5s;
+  animation-name: obj-scale;
+}
+
+@keyframes obj-scale {
+  from {
+    transform: scale(0.5);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons a {
+  padding: 10px;
+}
+
+.color1 { color: #172b4d; }
+.color2 { color: #36b37e; }
