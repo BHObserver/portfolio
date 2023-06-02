@@ -50,8 +50,8 @@ main {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.30em;
-  line-height: 1.30em;
+  font-size: 1.3em;
+  line-height: 1.3em;
   text-align: center;
   animation-duration: 0.5s;
   animation-name: obj-scale;
@@ -94,7 +94,7 @@ main {
   align-items: center;
 }
 
-.icons li{
+.icons li {
   list-style-type: none;
   margin-right: 1em;
 }
