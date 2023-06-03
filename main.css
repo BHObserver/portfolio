@@ -86,7 +86,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr);
-  width: 17.3em;
+  width: 19.8em;
   border-radius: 8px;
 }
 
@@ -99,7 +99,7 @@ main {
 
 .img-container {
   background-color: #ebf0ee;
-  height: 13em;
+  height: 15em;
   border-radius: 8px;
 }
 
@@ -108,7 +108,7 @@ main {
   flex-direction: column;
   color: #3a4a42;
   background-color: #fff;
-  height: 13em;
+  height: 14.5em;
   border-radius: 8px;
 }
 
@@ -137,9 +137,10 @@ main {
 }
 
 .tag {
+  margin-top: 10px;
   background-color: #ebf0ee;
-  padding: 5px;
-  height: 20px;
+  padding: 7.7px;
+  height: 14px;
   white-space: nowrap;
   margin-right: 8px;
   border: none;
@@ -147,7 +148,7 @@ main {
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.03em;
   border-radius: 4px;
 }
@@ -180,7 +181,7 @@ main {
 .btn-container {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .see-project-btn {
