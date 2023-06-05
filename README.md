@@ -9,6 +9,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🤯 Project walkthrough](#walk-through)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -56,6 +57,8 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://bhobserver.github.io/projects/portfolio/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
