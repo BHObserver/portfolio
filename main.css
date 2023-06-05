@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 
-@media (max-width: 48em) {
+@media (min-width: 48em) {
   main {
     background-image: url(assets/header-illsutration-mobile.svg);
     background-repeat: no-repeat;
