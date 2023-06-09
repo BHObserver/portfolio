@@ -3,7 +3,15 @@ body {
   padding: 0;
 }
 
-@media (max-width: 48em) {
+@media all and (max-width: 1220px) {
+  main {
+    background-image: url(assets/header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@media all and (max-width: 376px) {
   main {
     background-image: url(assets/header-illsutration-mobile.svg);
     background-repeat: no-repeat;
@@ -19,11 +27,22 @@ main {
   animation-name: obj-scale;
 }
 
-.header {
+.header{
+  position: sticky;
+  width: 100%;
+  top: 0;
+  margin-bottom: 3.2em;
+  height: 1em;
+}
+
+
+.nav-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+  width: 100%;
+  background: #FFFFFF;
+} 
 
 .heading {
   display: flex;
@@ -31,6 +50,7 @@ main {
   align-items: center;
   animation-duration: 0.5s;
   animation-name: obj-scale;
+  
 }
 
 .primary {
