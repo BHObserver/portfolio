@@ -17,6 +17,23 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
   }
+  .about-me .btn-container {
+    width: 376px;
+    height: 70px;
+    margin-bottom: 3em;
+    background-image: url(assets/aboutme-background.svg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    
+  }
+  
+  .about-me {
+    background-image: url(assets/aboutme-top.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+  }
 }
 
 main {
@@ -44,7 +61,7 @@ main {
   background: #FFFFFF;
 } 
 
-.heading {
+.heading-text {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -173,7 +190,7 @@ main {
   border-radius: 4px;
 }
 
-@keyframes obj-scale {
+/* @keyframes obj-scale {
   from {
     transform: scale(0.5);
   }
@@ -181,10 +198,13 @@ main {
   to {
     transform: scale(1);
   }
-}
+} */
 
-.cont {
-  margin-right: 2em;
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 1em;
 }
 
 .icons {
@@ -232,8 +252,8 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 300px;
-  height: 316px;
+  align-items: center;
+  width: 376px;
 }
 
 .skills {
@@ -242,6 +262,9 @@ main {
   background-color: #ebf0ee;
   padding: 2px;
   margin-top: 20px;
+  height: 336px;
+  width: 327px;
+  border-radius: 8px;
 }
 
 .skills ul {
@@ -251,6 +274,10 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.skills:nth-of-type(3) {
+  margin-bottom: 2em;
 }
 
 .skill-tag {
@@ -274,6 +301,93 @@ main {
   font-style: normal;
   font-size: 30px;
   font-weight: 600;
+}
+
+.contact {
+  margin-top: 2em;
+  width: 23.5em;
+  height: 55.7em;
+  background: url(assets/form-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.form input{
+  height: 48px;
+  width: 327px; 
+  border-radius: 4px;
+  background: #FFFFFF;
+  border: 1px solid #D0D9D4;
+  color: #6B778C;
+  border-radius: 4px;
+  margin: 10px;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+}
+
+.textarea {
+  background-image: url(assets/union.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  height: 114px;
+  width: 310px;
+  margin: 10px;
+  border-radius: 4px;
+  color: #42526E;
+  border: 1px solid #60C095;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 10px;
+  resize: none;
+}
+
+.get-in-touch-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  background: #36B37F;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin-top: 25px;
+  color: #42526E;
+}
+
+.contact .icon-container {
+  margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .color1 { color: #172b4d; }
