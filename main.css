@@ -94,6 +94,32 @@ body {
   .skill-title {
     margin: 0;
   }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(assets/about-me-background-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: top;
+    background-position-x: bottom;
+    width: 100%;
+    margin-top: 10em;
+  }
+  .about-me-container {
+    max-width: 810px;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    padding-bottom: 2rem;
+    margin: 0 12.5rem;
+  }
+
 }
 
 @media all and (max-width: 776px) {
