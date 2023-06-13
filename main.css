@@ -338,6 +338,11 @@ main {
   width: 310px;
   margin: 10px;
   border-radius: 4px;
+  color: #42526e;
+  border: 1px solid #60c095;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
   
 }
 
