@@ -305,7 +305,9 @@ main {
   width: 23.5em;
   height: 55.7em;
   background: url(assets/form-bg.png);
-
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
 .form {
