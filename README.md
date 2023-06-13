@@ -56,6 +56,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+- [Live Demo Link](https://bhobserver.github.io/projects/portfolio/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,15 +64,32 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+To get a local copy up and running, follow these steps:
 
+- Clone this repo as described in the setup section. 
+- Make modifications as peferred 
 
 
 ### Prerequisites
 
-
+In order to run this project you need:
+- A desktop, laptop or mac with internet connection
+- A text editor (i.e. Visual Studio)
+- GitHub account 
 
 
 ### Setup
+
+Clone this repository to your desired folder:
+
+Example commands:
+
+```sh
+  cd my-folder
+
+  git clone https://github.com/BHObserver/portfolio.git
+  
+  cd Portfolio
 
 
 
@@ -92,15 +110,15 @@
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-
+- [Adding contact form] **[new_feature_1]**
+- [Adding new visuals ] **[new_feature_2]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
-
+Contributions, issues, and feature requests are welcome!
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -109,11 +127,13 @@
 
 ## ⭐️ Show your support <a name="support"></a>
 
+  Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
+I would like to thank all Microverse community.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
