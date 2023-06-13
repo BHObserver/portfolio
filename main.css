@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
   }
-  
+
   .header {
     display: none;
   }
@@ -23,7 +23,6 @@ body {
     width: 926px;
     padding: 4em;
   }
-
 
   .project-grid {
     display: grid;
@@ -40,13 +39,13 @@ body {
     background-color: #ebf0ee;
     border: 1px solid #c1c7d0;
   }
-  
+
   .img-container {
     background-color: #ebf0ee;
     height: 222px;
     border-radius: 8px;
   }
-  
+
   .project-details {
     display: flex;
     flex-direction: column;
@@ -61,14 +60,14 @@ body {
     justify-content: center;
     margin: 0;
   }
-  
+
   .btn-container {
     display: flex;
     justify-content: center;
     margin-top: 30px;
   }
-  
-  .works .project-grid{
+
+  .works .project-grid {
     margin-right: 17.5em;
   }
 
@@ -89,10 +88,8 @@ body {
     margin-top: 20px;
     height: 316px;
     width: 369px;
-    border-radius: 8px;
     padding-bottom: 20px;
   }
-
 }
 
 @media all and (max-width: 776px) {
@@ -121,7 +118,12 @@ body {
     margin-left: 1em;
     width: 250px;
   }
-  
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
 
   .about-me .btn-container {
     width: 376px;
@@ -131,9 +133,8 @@ body {
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: bottom;
-    
   }
-  
+
   .about-me {
     background-image: url(assets/aboutme-top.svg);
     background-repeat: no-repeat;
@@ -178,11 +179,7 @@ body {
     height: 0;
   }
 
-  .btn-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
-  }
+
 
   .qualifications {
     display: flex;
@@ -200,9 +197,7 @@ body {
     margin-top: 20px;
     height: 336px;
     width: 327px;
-    border-radius: 8px;
   }
-
 }
 
 main {
@@ -213,7 +208,7 @@ main {
   animation-name: obj-scale;
 }
 
-.header{
+.header {
   position: sticky;
   width: 100%;
   top: 0;
@@ -227,25 +222,23 @@ main {
   top: 0;
   margin-bottom: 3.2em;
   height: 1em;
-  
 }
-
 
 .nav-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  background: #FFFFFF;
+  background: #fff;
 }
 
 .nav-desktop ul {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   list-style: none;
 }
 
-.nav-desktop a{
+.nav-desktop a {
   margin-right: 3em;
   text-decoration: none;
   font-family: 'Inter', sans-serif;
@@ -261,9 +254,7 @@ main {
   align-items: center;
   animation-duration: 0.5s;
   animation-name: obj-scale;
-  
 }
-
 
 .primary {
   text-align: center;
@@ -273,8 +264,6 @@ main {
   font-size: 2.8em;
   line-height: 1.2em;
 }
-
-
 
 .supporting-text {
   color: #172b4d;
@@ -312,7 +301,6 @@ main {
 .indicator {
   margin-bottom: 20%;
 }
-
 
 .project-title {
   margin: 15px 15px;
@@ -377,8 +365,6 @@ main {
   margin-right: 1em;
 }
 
-
-
 .see-project-btn {
   border: none;
   color: #fff;
@@ -402,10 +388,6 @@ main {
   background: #36b37f;
   border-radius: 4px;
 }
-
-
-
-
 
 .skills ul {
   margin: 0;
@@ -459,18 +441,15 @@ main {
   align-items: center;
 }
 
-
-
-.form input{
+.form input {
   height: 48px;
-  width: 327px; 
+  width: 327px;
   border-radius: 4px;
-  background: #FFFFFF;
-  border: 1px solid #D0D9D4;
-  color: #6B778C;
-  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  color: #6b778c;
   margin: 10px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: italic;
   font-weight: 400;
 }
@@ -484,8 +463,8 @@ main {
   width: 310px;
   margin: 10px;
   border-radius: 4px;
-  color: #42526E;
-  border: 1px solid #60C095;
+  color: #42526e;
+  border: 1px solid #60c095;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 24px;
@@ -498,9 +477,9 @@ main {
   flex-direction: row;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
-  background: #36B37F;
-  font-family: 'Inter';
+  color: #fff;
+  background: #36b37f;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -515,14 +494,14 @@ main {
 .email {
   display: flex;
   justify-content: center;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
   text-align: center;
   margin-top: 25px;
-  color: #42526E;
+  color: #42526e;
 }
 
 .contact .icon-container {
