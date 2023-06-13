@@ -120,6 +120,65 @@ body {
     margin: 0 12.5rem;
   }
 
+  .contact {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    background-image: url(assets/contact-me-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    color: #172B4D;
+  }
+  
+  .contact h2 {
+    font-size: 30px;
+    width: 463px;
+    height: 256px;
+  }
+
+  .textarea {
+    height: 114px;
+    width: 684px;
+    border-radius: 4px;
+  }
+
+  .get-in-touch-btn {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    background: #36b37f;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .email {
+    display: none;
+  }
+
+  .form-mobile {
+    display: none;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+
 }
 
 @media all and (max-width: 776px) {
@@ -226,6 +285,78 @@ body {
     height: 336px;
     width: 327px;
   }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    width: 23.5em;
+    height: 55.7em;
+    background: url(assets/form-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+
+  .get-in-touch-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background: #36b37f;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .email {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 25px;
+    color: #42526e;
+  }
+
+  .textarea {
+    background-image: url(assets/union.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    height: 114px;
+    width: 310px;
+    margin: 10px;
+    border-radius: 4px;
+    color: #42526e;
+    border: 1px solid #60c095;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px;
+    resize: none;
+  }
+
+  .form-desktop {
+    display: none;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }  
 }
 
 main {
@@ -453,21 +584,8 @@ main {
   font-weight: 600;
 }
 
-.contact {
-  margin-top: 2em;
-  width: 23.5em;
-  height: 55.7em;
-  background: url(assets/form-bg.png);
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
-}
 
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 
 .form input {
   height: 48px;
@@ -482,55 +600,10 @@ main {
   font-weight: 400;
 }
 
-.textarea {
-  background-image: url(assets/union.png);
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
-  height: 114px;
-  width: 310px;
-  margin: 10px;
-  border-radius: 4px;
-  color: #42526e;
-  border: 1px solid #60c095;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  line-height: 24px;
-  padding: 10px;
-  resize: none;
-}
 
-.get-in-touch-btn {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  background: #36b37f;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  margin-top: 15px;
-  padding: 12px;
-  border: none;
-  border-radius: 4px;
-}
 
-.email {
-  display: flex;
-  justify-content: center;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-  text-align: center;
-  margin-top: 25px;
-  color: #42526e;
-}
+
+
 
 .contact .icon-container {
   margin-top: 20px;
