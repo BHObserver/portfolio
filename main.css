@@ -104,8 +104,7 @@ main {
 }
 
 .project-details {
-  display: flex;
-  flex-direction: column;
+  float: left;
   color: #3a4a42;
   background-color: #fff;
   height: 14.5em;
@@ -131,9 +130,10 @@ main {
 }
 
 .tech-stack {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  list-style-type: none;
+  list-style-type: none; */
+  float: left;
 }
 
 .tag {
