@@ -329,7 +329,16 @@ main {
   font-weight: 400;
 }
 
-
+.textarea {
+  background-image: url(assets/union.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  height: 114px;
+  width: 310px;
+  margin: 10px;
+ 
+}
 
 .get-in-touch-btn {
   display: flex;
