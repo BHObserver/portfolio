@@ -29,7 +29,7 @@
 # 📖 [Portfolio] <a name="about-project"></a>
 
 
-**[Portfolio]** is a single webpage.
+**[Portfolio]** is a website that is used to showcase the projects and abilities.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -39,19 +39,6 @@
   <li>CSS3</li>
 </ul>
 
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
@@ -90,16 +77,13 @@ Example commands:
   git clone https://github.com/BHObserver/portfolio.git
   
   cd Portfolio
-
-
-
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
-
 
 
 👤 **Burhan Uddin**
@@ -110,8 +94,8 @@ Example commands:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [Adding contact form] **[new_feature_1]**
-- [Adding new visuals ] **[new_feature_2]**
+- [Adding contact form] **[Contact_Form]**
+- [Adding new visuals ] **[Responsive]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +117,7 @@ Contributions, issues, and feature requests are welcome!
 
 <!-- ACKNOWLEDGEMENTS -->
 
-I would like to thank all Microverse community.
+I would like to say that, I am really greatful to the Microverse community.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
