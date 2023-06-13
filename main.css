@@ -85,10 +85,14 @@ body {
     border-radius: 8px;
     background-color: #ebf0ee;
     padding: 2px;
+    padding-top: 20px;
     margin-top: 20px;
-    height: 316px;
+    height: 264px;
     width: 369px;
     padding-bottom: 20px;
+  }
+  .skill-title {
+    margin: 0;
   }
 }
 
@@ -178,8 +182,6 @@ body {
     width: 0;
     height: 0;
   }
-
-
 
   .qualifications {
     display: flex;
