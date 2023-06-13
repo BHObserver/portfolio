@@ -337,7 +337,8 @@ main {
   height: 114px;
   width: 310px;
   margin: 10px;
- 
+  border-radius: 4px;
+  
 }
 
 .get-in-touch-btn {
