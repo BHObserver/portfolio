@@ -1,6 +1,6 @@
 @media all and (max-width: 776px) {
     main {
-      background-image: url(assets/header-illsutration-mobile.svg);
+      background-image: url(../assets/header-illsutration-mobile.svg);
       background-repeat: no-repeat;
       background-size: contain;
     }
@@ -35,14 +35,14 @@
       width: 376px;
       height: 70px;
       margin-bottom: 3em;
-      background-image: url(assets/aboutme-background.svg);
+      background-image: url(../assets/aboutme-background.svg);
       background-repeat: no-repeat;
       background-position-x: left;
       background-position-y: bottom;
     }
   
     .about-me {
-      background-image: url(assets/aboutme-top.svg);
+      background-image: url(../assets/aboutme-top.svg);
       background-repeat: no-repeat;
       background-position-x: right;
       background-position-y: top;
@@ -109,7 +109,7 @@
       margin-top: 2em;
       width: 23.5em;
       height: 55.7em;
-      background: url(assets/form-bg.png);
+      background: url(../assets/form-bg.png);
       background-repeat: no-repeat;
       background-position-x: right;
       background-position-y: bottom;
@@ -148,7 +148,7 @@
     }
   
     .textarea {
-      background-image: url(assets/union.png);
+      background-image: url(../assets/union.png);
       background-repeat: no-repeat;
       background-position-x: right;
       background-position-y: bottom;
