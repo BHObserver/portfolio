@@ -91,6 +91,7 @@ body {
     width: 369px;
     padding-bottom: 20px;
   }
+
   .skill-title {
     margin: 0;
   }
@@ -107,6 +108,7 @@ body {
     width: 100%;
     margin-top: 10em;
   }
+
   .about-me-container {
     max-width: 810px;
     height: auto;
@@ -122,20 +124,19 @@ body {
 
   .contact {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     align-items: center;
     background-image: url(assets/contact-me-background-desktop.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: bottom;
-    
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 52px;
-    color: #172B4D;
+    color: #172b4d;
   }
-  
+
   .contact h2 {
     font-size: 30px;
     width: 463px;
@@ -164,7 +165,7 @@ body {
     border: none;
     border-radius: 4px;
   }
-  
+
   .email {
     display: none;
   }
@@ -177,8 +178,6 @@ body {
     display: flex;
     flex-direction: column;
   }
-
-
 }
 
 @media all and (max-width: 776px) {
@@ -356,7 +355,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }  
+  }
 }
 
 main {
@@ -584,9 +583,6 @@ main {
   font-weight: 600;
 }
 
-
-
-
 .form input {
   height: 48px;
   width: 327px;
@@ -599,11 +595,6 @@ main {
   font-style: italic;
   font-weight: 400;
 }
-
-
-
-
-
 
 .contact .icon-container {
   margin-top: 20px;
