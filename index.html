@@ -155,7 +155,7 @@
         <section class="heading-text about-me">
             <div class="about-me-container">
                 <h2 class="primary color1">About me</h2>  
-                <p > I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                <p class="supporting-text"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                 don’t hesitate to contact me.</p>
                 <div class="btn-container">
                     <button class="resume-btn">Get my resume</button>
@@ -203,10 +203,16 @@
             </div>
         </section>
         <section class="contact">
+            <div class="contact-heading-container">
                 <h2 class="primary color1">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+            </div>
             <form class="form" action="https://formspree.io/f/mwkjgvpr"
             method="POST">
-                <input type="text" required maxlength="30" placeholder="Full name">
+                <input type="text" class="mobile-form" required maxlength="30" placeholder="Full name">
+                <div class="desktop-form">
+                    <input type="text" name="first_name" required maxlength="30" placeholder="First Name">
+                    <input type="text" name="list_name" required maxlength="30" placeholder="Last Name">
+                </div>
                 <input type="email" name="email" required maxlength="30" placeholder="Email Address">
                 <textarea type="text" name="message" required class="textarea" maxlength="500" placeholder="Hey I'd like to connect too"></textarea>
                 <button type="submit" class="get-in-touch-btn" name="get-in-touch" id="">Get in touch</button>
@@ -225,7 +231,6 @@
                </ul>
             </div> 
         </footer>
-        
     </main>
 </body>
 </html>
