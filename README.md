@@ -41,10 +41,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Mobile First]**
-- **[Responsive]**
-- **[Navigation Bar]**
-- **[Contact Info]**
+- **Mobile First**
+- **Responsive**
+- **Navigation Bar**
+- **Contact Info**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
