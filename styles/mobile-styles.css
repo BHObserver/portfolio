@@ -1,177 +1,225 @@
 @media all and (max-width: 768px) {
-    main {
-      background-image: url(../assets/header-illsutration-mobile.svg);
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
-  
-    .nav-desktop {
-      display: none;
-    }
-  
-    .header {
-      display: block;
-    }
-  
-    .text-container {
-      max-width: 376px;
-      width: 342px;
-      padding: 4em;
-    }
-  
-    .text-container .intro {
-      display: block;
-      margin-left: 1em;
-      width: 250px;
-    }
-  
-    .btn-container {
-      display: flex;
-      justify-content: center;
-      margin-top: 70px;
-    }
-  
-    .about-me .btn-container {
-      width: 376px;
-      height: 70px;
-      margin-bottom: 3em;
-      background-image: url(../assets/aboutme-background.svg);
-      background-repeat: no-repeat;
-      background-position-x: left;
-      background-position-y: bottom;
-    }
-  
-    .about-me {
-      background-image: url(../assets/aboutme-top.svg);
-      background-repeat: no-repeat;
-      background-position-x: right;
-      background-position-y: top;
-    }
-  
-    .project-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(6, 1fr);
-      width: 19.8em;
-      border-radius: 8px;
-    }
-  
-    .project-container {
-      margin-top: 10%;
-      border-radius: 8px;
-      background-color: #ebf0ee;
-      border: 1px solid #c1c7d0;
-    }
-  
-    .img-container {
-      background-color: #ebf0ee;
-      height: 15em;
-      border-radius: 8px;
-    }
-  
-    .project-details {
-      display: flex;
-      flex-direction: column;
-      color: #3a4a42;
-      background-color: #fff;
-      height: 14.5em;
-      border-radius: 8px;
-    }
-  
-    .project-details ul {
-      margin: 0;
-      padding: 0;
-      width: 0;
-      height: 0;
-    }
-  
-    .qualifications {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
-      width: 376px;
-    }
-  
-    .skills {
-      border: 1px solid #c1c7d0;
-      border-radius: 8px;
-      background-color: #ebf0ee;
-      padding: 2px;
-      margin-top: 20px;
-      height: 336px;
-      width: 327px;
-    }
-  
-    .contact {
-      display: flex;
-      flex-direction: column;
-      margin-top: 2em;
-      width: 23.5em;
-      height: 55.7em;
-      background: url(../assets/form-bg.png);
-      background-repeat: no-repeat;
-      background-position-x: right;
-      background-position-y: bottom;
-    }
-  
-    .get-in-touch-btn {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      text-align: center;
-      color: #fff;
-      background: #36b37f;
-      font-family: 'Inter', sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 17px;
-      line-height: 24px;
-      letter-spacing: 0.03em;
-      margin-top: 15px;
-      padding: 12px;
-      border: none;
-      border-radius: 4px;
-    }
-  
-    .email {
-      display: flex;
-      justify-content: center;
-      font-family: 'Inter', sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 32px;
-      text-align: center;
-      margin-top: 25px;
-      color: #42526e;
-    }
-  
-    .textarea {
-      background-image: url(../assets/union.png);
-      background-repeat: no-repeat;
-      background-position-x: right;
-      background-position-y: bottom;
-      height: 114px;
-      width: 310px;
-      margin: 10px;
-      border-radius: 4px;
-      color: #42526e;
-      border: 1px solid #60c095;
-      font-family: 'Inter', sans-serif;
-      font-weight: 400;
-      line-height: 24px;
-      padding: 10px;
-      resize: none;
-    }
-  
-    .form-desktop {
-      display: none;
-    }
-  
-    .form {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+  main {
+    background-image: url(../assets/header-illsutration-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
   }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .header {
+    display: block;
+  }
+
+  .primary {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8em;
+    line-height: 1.2em;
+  }
+
+  .supporting-text {
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    text-align: center;
+    animation-duration: 0.5s;
+    animation-name: obj-scale;
+  }
+
+  .text-container {
+    max-width: 376px;
+    width: 342px;
+    padding: 4em;
+  }
+
+  .text-container .intro {
+    display: block;
+    margin-left: 1em;
+    width: 250px;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
+
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+  }
+
+  .about-me .btn-container {
+    width: 376px;
+    height: 70px;
+    margin-bottom: 3em;
+    background-image: url(../assets/aboutme-background.svg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+  }
+
+  .about-me {
+    background-image: url(../assets/aboutme-top.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+  }
+
+  .project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    width: 19.8em;
+    border-radius: 8px;
+  }
+
+  .project-container {
+    margin-top: 10%;
+    border-radius: 8px;
+    background-color: #ebf0ee;
+    border: 1px solid #c1c7d0;
+  }
+
+  .img-container {
+    background-color: #ebf0ee;
+    height: 15em;
+    border-radius: 8px;
+  }
+
+  .project-details {
+    display: flex;
+    flex-direction: column;
+    color: #3a4a42;
+    background-color: #fff;
+    height: 14.5em;
+    border-radius: 8px;
+  }
+
+  .project-details ul {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .qualifications {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 376px;
+  }
+
+  .skills {
+    border: 1px solid #c1c7d0;
+    border-radius: 8px;
+    background-color: #ebf0ee;
+    padding: 2px;
+    margin-top: 20px;
+    height: 336px;
+    width: 327px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    width: 23.5em;
+    height: 55.7em;
+    background: url(../assets/form-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+
+  .get-in-touch-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background: #36b37f;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .email {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 25px;
+    color: #42526e;
+  }
+
+  .textarea {
+    background-image: url(../assets/union.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    height: 114px;
+    width: 310px;
+    margin: 10px;
+    border-radius: 4px;
+    color: #42526e;
+    border: 1px solid #60c095;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px;
+    resize: none;
+  }
+
+  .form input {
+    height: 3em;
+    width: 327px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #d0d9d4;
+    color: #6b778c;
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .desktop-form {
+    display: none;
+  }
+
+  .mobile-form {
+    display: block;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
