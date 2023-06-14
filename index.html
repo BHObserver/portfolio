@@ -8,17 +8,17 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <img src="assets/logo.svg" id="logo" alt="Logo of page">
-        <nav>
-            <img src="assets/nav-burger.svg" class="nav-btn" alt="Button to navigate">
-        </nav>
+            <nav class="nav-bar">
+                <img src="assets/logo.svg" id="logo" alt="Page logo">
+                <img src="assets/nav-burger.svg" class="nav-btn" alt="Button to navigate">
+            </nav>
     </header>
-    <main class>
-        <section class="heading">
+    <main>
+        <section class="heading-text headline">
             <h1 class="primary">
                 <span class="color1">
                     Hey there. <br>
@@ -30,7 +30,7 @@
                 I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, 
                 don't hesitate to contact me.
             </p>        
-            <div class="cont">
+            <div class="icon-container">
                 <ul class="icons">
                     <li><a href="https://twitter.com/@BurhanU14173360"><img src="assets/twitter.svg" alt="Twitter"></a></li>
                     <li><a href="https://www.linkedin.com/in/bhobserver"><img src="assets/linkedin.svg" alt="LinkedIn"></a></li>
@@ -43,7 +43,7 @@
         <div class="bottom-arrow">
             <img src="assets/bottom arrow.svg" alt="bottom-arrow" >
         </div>   
-        <section class="heading">
+        <section class="heading-text works">
             <h2 class="color1 primary">My Recent <br>Works</h2>
             <img src="assets/indicator.svg" class="indicator" alt="indicator">
             <div class="project-grid">
@@ -139,7 +139,7 @@
                 </div>
             </div>
         </section>
-        <section class="heading">
+        <section class="heading-text about-me">
               <h2 class="primary color1">About me</h2>  
               <p class="supporting-text"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                 don’t hesitate to contact me.
@@ -147,47 +147,68 @@
               <div class="btn-container">
                 <button class="resume-btn">Get my resume</button>
               </div>
+              <div class="qualifications" >
+                  <div class="skills">
+                    <img src="assets/Languages.svg" alt="Skills">
+                    <div>
+                        <h2 class="skill-title color1">Languages</h2>
+                        <ul>
+                            <li class="skill-tag">JavaScript</li>
+                            <li class="skill-tag">Ruby</li>
+                            <li class="skill-tag">HTML</li>
+                            <li class="skill-tag">CSS</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills">
+                    <img src="assets/Frameworks.svg" alt="Frameworks">
+                    <div>
+                        <h2 class="skill-title color1">Frameworks</h2>
+                        <ul>
+                            <li class="skill-tag">React.js</li>
+                            <li class="skill-tag">Ruby on Rails</li>
+                            <li class="skill-tag">RSpec</li>
+                            <li class="skill-tag">Capybara</li>
+                            <li class="skill-tag">Selenium</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills">
+                    <img src="assets/Skills.svg" alt="Languages">
+                    <div>
+                        <h2 class="skill-title color1">Skills</h2>
+                        <ul>
+                            <li class="skill-tag">Database Management</li>
+                            <li class="skill-tag">Version Control</li>
+                            <li class="skill-tag">CLI</li>
+                            <li class="skill-tag">Web Development</li>
+                            <li class="skill-tag">API Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
-        <div class="qualifications" >
-            <div class="skills">
-                <img src="assets/Languages.svg" alt="Skills">
-                <div>
-                    <h2 class="skill-title">Languages</h2>
-                    <ul>
-                        <li class="skill-tag">JavaScript</li>
-                        <li class="skill-tag">Ruby</li>
-                        <li class="skill-tag">HTML</li>
-                        <li class="skill-tag">CSS</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="skills">
-                <img src="assets/Frameworks.svg" alt="Frameworks">
-                <div>
-                    <h2 class="skill-title">Frameworks</h2>
-                    <ul>
-                        <li class="skill-tag">React.js</li>
-                        <li class="skill-tag">Ruby on Rails</li>
-                        <li class="skill-tag">RSpec</li>
-                        <li class="skill-tag">Capybara</li>
-                        <li class="skill-tag">Selenium</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="skills">
-                <img src="assets/Skills.svg" alt="Languages">
-                <div>
-                    <h2 class="skill-title">Skills</h2>
-                    <ul>
-                        <li class="skill-tag">Database Management</li>
-                        <li class="skill-tag">Version Control</li>
-                        <li class="skill-tag">CLI</li>
-                        <li class="skill-tag">Web Development</li>
-                        <li class="skill-tag">API Design</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <section class="contact">
+                <h2 class="primary color1">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+            <form class="form" action="https://formspree.io/f/mwkjgvpr"
+            method="POST">
+                <input type="text" required maxlength="30" placeholder="Full name">
+                <input type="email" name="email" required maxlength="30" placeholder="Email Address">
+                <textarea type="text" name="message" required class="textarea" maxlength="500" placeholder="Hey I'd like to connect too"></textarea>
+                <button type="submit" class="get-in-touch-btn" name="get-in-touch" id="">Get in touch</button>
+            </form>
+            <span class="email">bhobserver0@gmail.com</span>
+            <div class="icon-container">
+                <ul class="icons">
+                    <li><a href="https://twitter.com/@BurhanU14173360"><img src="assets/twitter.svg" alt="Twitter"></a></li>
+                    <li><a href="https://www.linkedin.com/in/bhobserver"><img src="assets/linkedin.svg" alt="LinkedIn"></a></li>
+                    <li><a href="#"><img src="assets/medium.svg" alt="medium"></a></li>
+                    <li><a href="https://github.com/bhobserver"><img src="Assets/github.svg" alt="GitHub"></a></li> 
+                    <li><a href="#"><img src="assets/angellist.svg" alt="Angellist"></a></li>
+               </ul>
+            </div> 
+        </section>
+        
     </main>
 </body>
 </html>
