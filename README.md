@@ -39,6 +39,14 @@
   <li>CSS3</li>
 </ul>
 
+### Key Features <a name="key-features"></a>
+
+- **[Mobile_First]**
+- **[Responsive]**
+- **[Navigation_Bar]**
+- **[Contact_Info]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
@@ -94,8 +102,10 @@ Example commands:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [Adding contact form] **[Contact_Form]**
-- [Adding new visuals ] **[Responsive]**
+
+[ ] **[Desktop Version Changes]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
