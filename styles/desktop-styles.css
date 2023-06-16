@@ -24,7 +24,7 @@
     display: grid;
     align-self: center;
     justify-self: center;
-    grid-template-columns: repeat(auto-fit, minmax(14.8rem, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(14.8rem, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(auto, 1fr));
     border-radius: 8px;
     padding: 10px;
@@ -77,8 +77,6 @@
     border-radius: 4px;
   }
 
-
-  
   .btn-container {
     display: flex;
     justify-content: center;
@@ -163,6 +161,7 @@
     line-height: 32px;
     text-align: center;
     padding-bottom: 2rem;
+
     /* margin: 0 12.5rem; */
   }
 
@@ -276,7 +275,6 @@
   .form-mobile {
     display: none;
   }
-  
 
   footer {
     background-image: url(../assets/rectangle-footer.png);
