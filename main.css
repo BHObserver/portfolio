@@ -40,8 +40,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation-duration: 0.5s;
-  animation-name: obj-scale;
 }
 
 .header {
@@ -76,6 +74,8 @@ main {
   font-weight: 700;
   font-size: 2.8em;
   line-height: 1.2em;
+  animation-duration: 5s;
+  animation-name: obj-rotate;
 }
 
 .supporting-text {
@@ -88,8 +88,8 @@ main {
   font-size: 1.3em;
   line-height: 1.3em;
   text-align: center;
-  animation-duration: 0.5s;
-  animation-name: obj-scale;
+  animation-duration: 7s;
+  animation-name: obj-rotate;
 }
 
 .bottom-arrow {
@@ -188,7 +188,7 @@ main {
   border-radius: 4px;
 }
 
-/* @keyframes obj-scale {
+@keyframes obj-scale {
   from {
     transform: scale(0.5);
   }
@@ -196,7 +196,7 @@ main {
   to {
     transform: scale(1);
   }
-} */
+}
 
 .icon-container {
   display: flex;
@@ -220,6 +220,35 @@ main {
   display: flex;
   justify-content: center;
   margin-top: 70px;
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 0s;
+  transition: transform 1s ease-in-out;
+}
+
+.btn-container:hover {
+  -webkit-animation-name: btn-hover;
+  animation-name: btn-hover;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  transform: scale(1.2);
+}
+
+#animation {
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 0s;
+  transition: transform 1s ease-in-out;
+}
+
+#animation:hover {
+  -webkit-animation-name: btn-hover;
+  animation-name: btn-hover;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  transform: scale(1.2);
 }
 
 .see-project-btn {
@@ -262,6 +291,16 @@ main {
   margin-top: 20px;
   height: 336px;
   width: 327px;
+}
+
+@keyframes obj-rotate {
+  from {
+    transform: rotateX(0);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
 }
 
 .skills ul {
