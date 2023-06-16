@@ -40,8 +40,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation-duration: 0.5s;
-  animation-name: obj-scale;
 }
 
 .header {
@@ -76,6 +74,8 @@ main {
   font-weight: 700;
   font-size: 2.8em;
   line-height: 1.2em;
+  animation-duration: 5s;
+  animation-name: obj-rotate;
 }
 
 .supporting-text {
@@ -88,7 +88,7 @@ main {
   font-size: 1.3em;
   line-height: 1.3em;
   text-align: center;
-  animation-duration: 1s;
+  animation-duration: 7s;
   animation-name: obj-rotate;
 }
 
@@ -296,16 +296,13 @@ main {
 
 @keyframes obj-rotate {
   from {
-    transform: rotateX(90deg);
+    transform: rotateX(0);
   }
 
   to {
-    transform: rotateY(180deg);
+    transform: rotateY(360deg);
   }
 
-  to {
-    transform: rotateZ(360deg);
-  }
 }
 
 .skills ul {
