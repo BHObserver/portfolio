@@ -1,9 +1,10 @@
-@media all and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   main {
     background-image: url(../assets/header-illsutration-mobile.svg);
     background-repeat: no-repeat;
     background-size: contain;
   }
+
 
   .nav-desktop {
     display: none;
@@ -35,9 +36,8 @@
   }
 
   .text-container {
-    max-width: 376px;
+    max-width: 367px;
     width: 342px;
-    padding: 4em;
   }
 
   .text-container .intro {
@@ -63,7 +63,7 @@
   }
 
   .about-me .btn-container {
-    width: 376px;
+    width: 375px;
     height: 70px;
     margin-bottom: 3em;
     background-image: url(../assets/aboutme-background.svg);
@@ -79,11 +79,14 @@
     background-position-y: top;
   }
 
+  .works {
+    width: 327px;
+  }
+
   .project-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );
     grid-template-rows: repeat(6, 1fr);
-    width: 19.8em;
     border-radius: 8px;
   }
 
@@ -116,12 +119,29 @@
     height: 0;
   }
 
+  .tag {
+  margin-top: 10px;
+  background-color: #ebf0ee;
+  padding: 10.7px;
+  height: 14px;
+  font-size: 12px;
+  white-space: nowrap;
+  margin-right: 8px;
+  border: none;
+  color: #3a4a42;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
   .qualifications {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    width: 376px;
+    width: 375px;
   }
 
   .skills {
@@ -129,6 +149,7 @@
     border-radius: 8px;
     background-color: #ebf0ee;
     padding: 2px;
+    padding-top: 2rem;
     margin-top: 20px;
     height: 336px;
     width: 327px;
@@ -138,8 +159,8 @@
     display: flex;
     flex-direction: column;
     margin-top: 2em;
-    width: 23.5em;
-    height: 55.7em;
+    width: 100%;
+    height: 100%;
     background: url(../assets/form-bg.png);
     background-repeat: no-repeat;
     background-position-x: right;
@@ -194,6 +215,10 @@
     line-height: 24px;
     padding: 10px;
     resize: none;
+  }
+
+  .skills:nth-of-type(3) {
+    margin-bottom: 2em;
   }
 
   .form input {
