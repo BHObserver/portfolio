@@ -23,7 +23,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    width: 776px;
+    grid-column-start: 0;
+    grid-row-start: 4;
     border-radius: 8px;
     row-gap: 30px;
     column-gap: 20px;
@@ -63,7 +64,7 @@
   }
 
   .works .project-grid {
-    margin-right: 17.5em;
+    margin-left: 1em;
   }
 
   .qualifications {
