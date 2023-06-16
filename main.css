@@ -235,7 +235,6 @@ main {
   transform: scale(1.2);
 }
 
-
 #animation {
   -webkit-animation-duration: 0.8s;
   animation-duration: 0s;
@@ -302,7 +301,6 @@ main {
   to {
     transform: rotateY(360deg);
   }
-
 }
 
 .skills ul {
