@@ -88,8 +88,8 @@ main {
   font-size: 1.3em;
   line-height: 1.3em;
   text-align: center;
-  animation-duration: 0.5s;
-  animation-name: obj-scale;
+  animation-duration: 1s;
+  animation-name: obj-rotate;
 }
 
 .bottom-arrow {
@@ -292,6 +292,20 @@ main {
   margin-top: 20px;
   height: 336px;
   width: 327px;
+}
+
+@keyframes obj-rotate {
+  from {
+    transform: rotateX(90deg);
+  }
+
+  to {
+    transform: rotateY(180deg);
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
 }
 
 .skills ul {
