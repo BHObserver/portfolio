@@ -102,7 +102,10 @@ main {
 }
 
 .indicator {
+  display: flex;
+  justify-content: center;
   margin-bottom: 20%;
+  align-self: center;
 }
 
 .project-title {
@@ -118,16 +121,18 @@ main {
 
 .tech-stack {
   display: flex;
-  flex-direction: row;
   list-style-type: none;
   padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.tag {
+/* .tag {
   margin-top: 10px;
   background-color: #ebf0ee;
   padding: 7.7px;
   height: 14px;
+  font-size: 12px;
   white-space: nowrap;
   margin-right: 8px;
   border: none;
@@ -136,9 +141,8 @@ main {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 13px;
-  letter-spacing: 0.03em;
   border-radius: 4px;
-}
+} */
 
 /* @keyframes obj-scale {
   from {
@@ -201,9 +205,7 @@ main {
   justify-content: center;
 }
 
-.skills:nth-of-type(3) {
-  margin-bottom: 2em;
-}
+
 
 .skill-tag {
   background-color: #fff;
