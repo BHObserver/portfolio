@@ -14,9 +14,15 @@
     justify-content: center;
   }
 
+  .headline {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+
   .text-container {
     margin-top: 3.3rem;
-    width: 56%;
+    max-width: 433px;
   }
 
   .bottom-arrow {
@@ -207,7 +213,7 @@
   }
 
   .about-me-container {
-    max-width: 56%;
+    max-width: 433px;
     height: auto;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -235,7 +241,7 @@
     display: flex;
     align-items: center;
     max-height: 256px;
-    width: 463px;
+    max-width: 300px;
     font-style: normal;
     font-weight: 700;
     line-height: 52px;
@@ -355,5 +361,15 @@
     background-image: url(../assets/rectangle-footer.png);
     width: 100%;
     height: 1px;
+  }
+}
+
+@media screen and (min-width: 1210px) {
+  .headline {
+    height: 50rem;
+  }
+
+  .contact {
+    padding: 20px;
   }
 }
