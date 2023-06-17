@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   main {
     background-image: url(../assets/header-illsutration-mobile.svg);
     background-repeat: no-repeat;
@@ -48,6 +48,7 @@
   .btn-container {
     display: flex;
     justify-content: center;
+    width: 100%;
     margin-top: 70px;
   }
 
@@ -55,15 +56,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 100%;
+    width: 85%;
     height: auto;
     font-family: 'Inter', sans-serif;
     text-align: center;
+    
   }
 
   .about-me .btn-container {
     width: 375px;
-    height: 70px;
+    margin-top: 0.2rem;
     margin-bottom: 3em;
     background-image: url(../assets/aboutme-background.svg);
     background-repeat: no-repeat;
@@ -89,6 +91,17 @@
     border-radius: 8px;
   }
 
+  .project-title {
+    margin: 15px 15px;
+    padding: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
   .project-container {
     margin-top: 10%;
     border-radius: 8px;
@@ -110,6 +123,18 @@
     height: 14.5em;
     border-radius: 8px;
   }
+
+  .see-project-btn {
+    border: none;
+    color: #fff;
+    width: 100px;
+    height: 48px;
+    padding: 12px;
+    font-size: 15px;
+    background: #36b37f;
+    border-radius: 4px;
+  }
+  
 
   .project-details ul {
     margin: 0;
