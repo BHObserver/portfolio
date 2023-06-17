@@ -59,26 +59,7 @@ main {
   animation-name: obj-scale;
 }
 
-.primary {
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.8em;
-  line-height: 1.2em;
-}
 
-.supporting-text {
-  color: #172b4d;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.3em;
-  line-height: 1.3em;
-  text-align: center;
-  animation-duration: 0.5s;
-  animation-name: obj-scale;
-}
 
 /* .bottom-arrow {
   margin-top: 20%;
@@ -108,16 +89,7 @@ main {
   align-self: center;
 }
 
-.project-title {
-  margin: 15px 15px;
-  padding: 0;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-}
+
 
 .tech-stack {
   display: flex;
@@ -154,13 +126,6 @@ main {
   }
 } */
 
-.icon-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-right: 1em;
-}
-
 .icons {
   display: flex;
   flex-direction: row;
@@ -172,16 +137,6 @@ main {
   margin-right: 1em;
 }
 
-.see-project-btn {
-  border: none;
-  color: #fff;
-  width: 100px;
-  height: 48px;
-  padding: 12px;
-  font-size: 15px;
-  background: #36b37f;
-  border-radius: 4px;
-}
 
 .resume-btn {
   border: none;
