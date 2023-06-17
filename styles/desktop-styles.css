@@ -372,4 +372,11 @@
   .contact {
     padding: 20px;
   }
+
+  .primary {
+    font-size: 2rem;
+  }
+  .supporting-text {
+    font-size: 0.8rem;
+  }
 }
