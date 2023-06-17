@@ -18,7 +18,7 @@
     margin-top: 3.3rem;
     width: 56%;
   }
-  
+
 
   .bottom-arrow {
     margin: 3em 0 5em 0;
@@ -63,7 +63,7 @@
     aspect-ratio: 3/2;
     max-width: 369px;
   }
-  
+
   .project-title {
     margin: 15px 15px;
     padding: 0;
@@ -341,7 +341,7 @@
     animation-duration: 0.5s;
     animation-name: obj-scale;
   }
-  
+
   .email {
     display: none;
   }

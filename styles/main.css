@@ -89,8 +89,6 @@ main {
   align-self: center;
 }
 
-
-
 .tech-stack {
   display: flex;
   list-style-type: none;
@@ -136,7 +134,6 @@ main {
   list-style-type: none;
   margin-right: 1em;
 }
-
 
 .resume-btn {
   border: none;

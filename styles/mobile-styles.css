@@ -60,7 +60,6 @@
     height: auto;
     font-family: 'Inter', sans-serif;
     text-align: center;
-    
   }
 
   .about-me .btn-container {
@@ -134,7 +133,7 @@
     background: #36b37f;
     border-radius: 4px;
   }
-  
+
 
   .project-details ul {
     margin: 0;
