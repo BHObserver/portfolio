@@ -1,4 +1,4 @@
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   main {
     background-image: url(../assets/header-llustration-desktop.svg);
     background-repeat: no-repeat;
@@ -15,8 +15,10 @@
   }
 
   .text-container {
-    width: 768px;
+    margin-top: 3.3rem;
+    width: 56%;
   }
+  
 
   .bottom-arrow {
     margin: 3em 0 5em 0;
@@ -30,19 +32,28 @@
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    max-width: 768px;
+    max-width: 680px;
+  }
+
+  .works h2 {
+    font-size: 28px;
+  }
+
+  .text-container .intro {
+    font-size: 28px;
+    font-weight: 800;
   }
 
   .project-grid {
     display: grid;
     align-self: center;
     justify-self: center;
-    grid-template-columns: repeat(auto-fit, minmax(14.8rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(12.9rem, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(auto, 1fr));
     border-radius: 8px;
-    padding: 10px;
-    row-gap: 10px;
-    column-gap: 8px;
+    padding: 20px;
+    row-gap: 15px;
+    column-gap: 10px;
   }
 
   .project-container {
@@ -53,10 +64,21 @@
     max-width: 369px;
   }
   
+  .project-title {
+    margin: 15px 15px;
+    padding: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
   .img-container {
     background-color: #ebf0ee;
     max-width: 369px;
-    height: 12rem;
+    height: 9rem;
     border-radius: 8px;
   }
 
@@ -66,7 +88,7 @@
     color: #3a4a42;
     background-color: #fff;
     max-width: 369px;
-    height: 13rem;
+    height: 9rem;
     min-width: 0;
     min-height: 0;
     border-radius: 8px;
@@ -78,11 +100,11 @@
   }
 
   .tag {
-    margin-top: 10px;
+    margin-top: 2px;
     background-color: #ebf0ee;
-    padding: 7.7px;
-    height: 14px;
-    font-size: 10px;
+    padding: 5.5px;
+    height: 10px;
+    font-size: 8px;
     white-space: nowrap;
     margin-right: 4px;
     border: none;
@@ -96,13 +118,19 @@
   .btn-container {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
   }
 
-  /* .works .project-grid {
-    margin-left: 1em;
-  } */
+  .see-project-btn {
+    border: none;
+    color: #fff;
+    width: 32%;
+    height: 100%;
+    padding: 7px 0 7px 0;
+    font-size: 10px;
+    background: #36b37f;
+    border-radius: 2px;
+  }
 
   .qualifications {
     display: flex;
@@ -111,7 +139,7 @@
     text-align: center;
     width: 100%;
     height: 100%;
-    gap: 10px;
+    gap: 12px;
   }
 
   .skills {
@@ -119,15 +147,21 @@
     flex-direction: column;
     align-items: center;
     border: 1px solid #c1c7d0;
-    border-radius: 8px;
+    border-radius: 2px;
     background-color: #ebf0ee;
     padding: 2px;
     padding-top: 20px;
     margin-top: 20px;
-    width: 100%;
-    height: 316px;
+    width: 14rem;
+    height: 11.125rem;
     max-width: 369px;
     max-height: 316px;
+  }
+
+  .skills img {
+    margin-bottom: 10px;
+    width: 30%;
+    height: 36%;
   }
 
   .skill-tag-container {
@@ -145,16 +179,21 @@
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 8px;
     margin-top: 8px;
     margin-left: 2px;
     margin-right: 2px;
-    border-radius: 8px;
+    border-radius: 4px;
     list-style-type: none;
   }
 
   .skill-title {
     margin: 0;
+    font-size: 1.1rem;
+  }
+
+  .skills div ul {
+    padding: 0;
   }
 
   .about-me {
@@ -165,11 +204,11 @@
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
-    margin-top: 10em;
+    margin-top: 5em;
   }
 
   .about-me-container {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -177,8 +216,6 @@
     line-height: 32px;
     text-align: center;
     padding-bottom: 2rem;
-
-    /* margin: 0 12.5rem; */
   }
 
   .contact {
@@ -208,7 +245,7 @@
   }
 
   .contact-heading-container h2 {
-    font-size: 30px;
+    font-size: 18px;
   }
 
   .form {
@@ -284,6 +321,27 @@
     border-radius: 4px;
   }
 
+  .primary {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin: 0;
+  }
+
+  .supporting-text {
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7em;
+    line-height: 1.6em;
+    text-align: center;
+    animation-duration: 0.5s;
+    animation-name: obj-scale;
+  }
+  
   .email {
     display: none;
   }
