@@ -207,9 +207,12 @@
     align-items: center;
     background-image: url(../assets/about-me-background-desktop.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
+    background-position: center;
+    padding-top: 20px;
     width: 100%;
     margin-top: 2em;
+    margin-bottom: 1em;
   }
 
   .about-me-container {
@@ -221,6 +224,10 @@
     line-height: 32px;
     text-align: center;
     padding-bottom: 2rem;
+  }
+
+  .about-me .btn-container {
+    width: 100%;
   }
 
   .contact {
@@ -366,15 +373,21 @@
 
 @media screen and (min-width: 1210px) {
   .headline {
-    height: 50rem;
+    margin-top: 8rem;
+    height: 40rem;
+  }
+
+  .text-container {
+    margin-top: 5rem;
+    max-width: 493px;
   }
 
   .contact {
     padding: 20px;
   }
 
-  .primary {
-    font-size: 2rem;
+  .text-container .intro {
+    font-size: 2.5rem;
   }
 
   .supporting-text {
