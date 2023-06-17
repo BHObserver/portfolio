@@ -64,6 +64,7 @@
 
   .about-me .btn-container {
     width: 375px;
+    height: 70px;
     margin-top: 0.2rem;
     margin-bottom: 3em;
     background-image: url(../assets/aboutme-background.svg);
