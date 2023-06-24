@@ -45,6 +45,11 @@
     width: 250px;
   }
 
+  .headline .bottom-arrow {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+  }
+
   .btn-container {
     display: flex;
     justify-content: center;
