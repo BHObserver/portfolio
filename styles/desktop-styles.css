@@ -8,7 +8,7 @@
     justify-content: center;
     width: 100%;
   }
-  
+
   .headline {
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@
   .text-container {
     margin-top: 3.3rem;
     max-width: 100%;
-    width: 56.90vw;
+    width: 56.9vw;
   }
 
   .bottom-arrow {
@@ -69,6 +69,7 @@
     row-gap: 15px;
     column-gap: 10px;
     height: 100%;
+
     /* width: 100%; */
   }
 
@@ -95,6 +96,7 @@
   .img-container {
     background-color: #ebf0ee;
     max-width: 369px;
+
     /* height: 9rem; */
     max-height: 252px;
     height: 100%;
