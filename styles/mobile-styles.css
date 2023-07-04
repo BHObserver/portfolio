@@ -1,0 +1,277 @@
+@media screen and (max-width: 767px) {
+  main {
+    background-image: url(../assets/header-illsutration-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .header {
+    display: block;
+  }
+
+  .primary {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8em;
+    line-height: 1.2em;
+  }
+
+  .supporting-text {
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    text-align: center;
+    animation-duration: 0.5s;
+    animation-name: obj-scale;
+  }
+
+  .text-container {
+    max-width: 367px;
+    width: 342px;
+  }
+
+  .text-container .intro {
+    display: block;
+    margin-left: 1em;
+    width: 250px;
+  }
+
+  .headline .bottom-arrow {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 70px;
+  }
+
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+  }
+
+  .about-me .btn-container {
+    width: 375px;
+    height: 70px;
+    margin-top: 0.2rem;
+    margin-bottom: 3em;
+    background-image: url(../assets/aboutme-background.svg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+  }
+
+  .about-me {
+    background-image: url(../assets/aboutme-top.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+  }
+
+  .works {
+    width: 327px;
+  }
+
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(6, 1fr);
+    border-radius: 8px;
+  }
+
+  .project-title {
+    margin: 15px 15px;
+    padding: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .project-container {
+    margin-top: 10%;
+    border-radius: 8px;
+    background-color: #ebf0ee;
+    border: 1px solid #c1c7d0;
+  }
+
+  .img-container {
+    background-color: #ebf0ee;
+    height: 15em;
+    border-radius: 8px;
+  }
+
+  .project-details {
+    display: flex;
+    flex-direction: column;
+    color: #3a4a42;
+    background-color: #fff;
+    height: 14.5em;
+    border-radius: 8px;
+  }
+
+  .see-project-btn {
+    border: none;
+    color: #fff;
+    width: 100px;
+    height: 48px;
+    padding: 12px;
+    font-size: 15px;
+    background: #36b37f;
+    border-radius: 4px;
+  }
+
+  .project-details ul {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .tag {
+    margin-top: 10px;
+    background-color: #ebf0ee;
+    padding: 10.7px;
+    height: 14px;
+    font-size: 12px;
+    white-space: nowrap;
+    margin-right: 8px;
+    border: none;
+    color: #3a4a42;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+
+  .qualifications {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 375px;
+  }
+
+  .skills {
+    border: 1px solid #c1c7d0;
+    border-radius: 8px;
+    background-color: #ebf0ee;
+    padding: 2px;
+    padding-top: 2rem;
+    margin-top: 20px;
+    height: 336px;
+    width: 327px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    width: 100%;
+    height: 100%;
+    background: url(../assets/form-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+
+  .get-in-touch-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background: #36b37f;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  .email {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 25px;
+    color: #42526e;
+  }
+
+  .textarea {
+    background-image: url(../assets/union.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    height: 114px;
+    width: 310px;
+    margin: 10px;
+    border-radius: 4px;
+    color: #42526e;
+    border: 1px solid #60c095;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px;
+    resize: none;
+  }
+
+  .skills:nth-of-type(3) {
+    margin-bottom: 2em;
+  }
+
+  .form input {
+    height: 3em;
+    width: 327px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #d0d9d4;
+    color: #6b778c;
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .desktop-form {
+    display: none;
+  }
+
+  .mobile-form {
+    display: block;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
